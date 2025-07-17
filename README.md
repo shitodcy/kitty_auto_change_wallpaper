@@ -4,10 +4,16 @@ Sebuah konfigurasi dan skrip sederhana untuk terminal [Kitty](https://sw.kovidgo
 
 ## ✨ Fitur
 
-  * **Latar Belakang Dinamis**: Wallpaper berganti secara acak setiap kali sesi shell baru dimulai (misalnya saat membuka tab baru).
+  * **Latar Belakang Dinamis**: Wallpaper berganti secara acak setiap kali sesi shell baru dimulai.
   * **Kustomisasi Mudah**: Atur opasitas latar belakang dengan mudah agar teks tetap terbaca dengan jelas.
   * **Ringan**: Menggunakan skrip shell sederhana tanpa dependensi berat.
-  * **Skema Warna Termasuk**: Dilengkapi dengan tema warna *Catppuccin Macchiato* dan *Birds Of Paradise* untuk melengkapi tampilan terminal Anda.
+  * **Skema Warna Termasuk**: Dilengkapi dengan tema warna *Catppuccin Macchiato* dan *Birds Of Paradise*.
+
+## 🖼️ Pratinjau
+
+| inage 1                              | image 2                      |
+| -------------------------------------------------------------- | ---------------------------------------------------------------- |
+|![image-1](https://github.com/shitodcy/kitty_auto_change_wallpaper/blob/main/image/1.png)|![image-2](https://github.com/shitodcy/kitty_auto_change_wallpaper/blob/main/image/2.png)|
 
 ## 🛠️ Prasyarat
 
@@ -49,7 +55,7 @@ chmod +x ~/.config/kitty/change_wallpaper.sh
 
 ### 4\. Atur Pemicu Otomatis
 
-Tambahkan skrip ke file startup shell Anda agar dapat berjalan secara otomatis setiap kali Anda membuka tab baru. Pilih perintah yang sesuai dengan shell yang Anda gunakan.
+Tambahkan skrip ke file startup shell Anda agar dapat berjalan secara otomatis. Pilih perintah yang sesuai dengan shell yang Anda gunakan.
 
   * **Untuk BASH:**
 
@@ -94,17 +100,5 @@ Tutup total semua jendela terminal Kitty Anda, lalu buka kembali. Wallpaper acak
 
 Anda dapat dengan mudah menyesuaikan beberapa pengaturan di dalam file `kitty.conf`:
 
-  * **Transparansi Latar Belakang**: Ubah nilai `background_opacity` untuk mengatur tingkat transparansi. Nilai yang direkomendasikan adalah antara `0.1` hingga `0.3`.
-
-    ```conf
-    # Atur tingkat transparansi gambar latar (0.0 - 1.0)
-    background_opacity 0.15
-    ```
-
-  * **Skema Warna**: Ganti skema warna dengan mengubah baris `include`. Anda bisa memilih antara `macchiato.conf` atau `colors.conf` yang sudah tersedia.
-
-    ```conf
-    # Ganti sesuai selera Anda
-    # include macchiato.conf
-    include colors.conf
-    ```
+  * **Transparansi Latar Belakang**: Ubah nilai `background_opacity` untuk mengatur tingkat transparansi.
+  * **Skema Warna**: Ganti skema warna dengan mengubah baris `include`.
