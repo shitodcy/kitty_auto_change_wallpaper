@@ -1,0 +1,1 @@
+# kitty_auto_change_wallpaper
